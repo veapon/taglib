@@ -11,6 +11,6 @@ You may need to make some changes to let the complier know where the taglib libr
 See: [https://github.com/veapon/taglib/tree/master/examples](https://github.com/veapon/taglib/tree/master/examples)
 
 # Complie 
-	gcc -c -I /usr/local/include/taglib -o a.o
-	gcc -ltag_c a.o -o a
-	./a
+	gcc -c -I /usr/local/include/taglib your-code.c -o your-code.o
+	gcc -ltag_c your-code.o -o your-code
+	./your-code
